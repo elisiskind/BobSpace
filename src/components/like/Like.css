@@ -1,0 +1,39 @@
+.like__button {
+  background: none;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.like__button--active {
+  box-shadow: inset 0 0 8px #aaaaaa;
+}
+
+.like__button:hover {
+  background: #eeeeee;
+}
+
+
+.like__palm {
+  fill: #b5b5b4;
+}
+
+.like__pads {
+  fill: #646464;
+}
+
+.like__knuckles {
+  fill: #dbdbdb;
+}
+
+.like__svg {
+  fill-rule: evenodd;
+  stroke: none;
+}
+
+.like__svg--inactive {
+  fill: #dbdbdb !important;
+}
+

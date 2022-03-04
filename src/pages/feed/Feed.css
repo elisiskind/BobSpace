@@ -1,0 +1,15 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feed__not-loaded {
+  padding: 24px;
+  color: #343434;
+  font-style: italic;
+  width: 480px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
