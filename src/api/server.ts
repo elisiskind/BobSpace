@@ -1,6 +1,6 @@
-import { Logger } from "logging";
-import { favoriteUrls, getImage } from "api/images";
-import { Api, ImageInfo } from "api/api";
+import { Logger } from "../logging";
+import { favoriteUrls, getImage } from "./images";
+import { Api, ImageInfo } from './api';
 
 interface ServerOptions {
   slowMode?: boolean;

@@ -28,7 +28,7 @@ log after the useState declarations, you can even log the values of each state f
 If you want to slow things down, you can initialize server with slow mode in `api.ts`:
 
 ```typescript
-export const server = new Server({slowMode: true});
+export const server = new Server({ slowMode: true });
 ```
 
 ### 1. Hardcoded image
@@ -40,8 +40,10 @@ component.
 Let's start off by editing Feed.tsx. First let's just add a hardcoded image:
 
 ```tsx
-<div className="feed">
-  <ImageCard imageInfo="2utcevwaiRJG.jpg"/>
+import { ImageCard } from '../../components/image-card/ImageCard';
+// ...
+return <div className="feed">
+  <ImageCard imageInfo="2utcevwaiRJG.jpg" />
 </div>
 ```
 
@@ -50,7 +52,7 @@ Let's start off by editing Feed.tsx. First let's just add a hardcoded image:
 Instead of hardcoding an image, we can download it when the page renders:
 
 ```typescript
-import {server} from "api/api";
+import { server } from '../../api/api';
 ```
 
 ...

@@ -1,14 +1,13 @@
-import React from "react";
-import "App.css";
-import { Outlet } from "react-router-dom";
-import { NavBar } from "./components/navbar";
+import "./App.css";
+import { NavBar } from "./components/navbar/NavBar";
+import { Feed } from './pages/feed/Feed';
 
 const App = () => {
   return (
     <div className="app">
       <NavBar />
       <div className="app__content">
-        <Outlet />
+        <Feed />
       </div>
     </div>
   );

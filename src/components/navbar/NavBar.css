@@ -7,19 +7,11 @@
   background: white;
 }
 
-.nav-bar__link {
+.nav-bar__page {
   padding: 24px;
   font-size: 24px;
   outline: none;
   text-decoration: none;
   color: #444;
   height: 100%;
-}
-
-.nav-bar__link:hover {
-  background: #eee
-}
-
-.nav-bar__link:active {
-  background: #ddd
 }

@@ -1,4 +1,4 @@
-import { Server } from "api/server";
+import { Server } from "./server";
 
 export interface ImageInfo {
   url: string;

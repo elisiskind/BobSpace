@@ -1,7 +1,9 @@
 import "./Feed.css";
-import { Logger } from "logging";
+// import { ImageCard } from '../../components/image-card/ImageCard';
+// import { server } from '../../api/api';
+// import { Logger } from "../../logging";
 
-const logger = new Logger("green", "Feed.tsx");
+// const logger = new Logger("green", "Feed.tsx");
 
 export const Feed = () => {
   return <div className="feed">Feed is not yet implemented!</div>;

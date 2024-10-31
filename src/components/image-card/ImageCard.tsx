@@ -1,7 +1,7 @@
 import "./ImageCard.css";
-import { ImageInfo } from "api/api";
-import { Image } from "components/image";
-import { Caption } from "components/caption";
+import { ImageInfo } from '../../api/api';
+import { Caption } from '../caption/Caption';
+import {Image} from '../image/Image';
 
 interface ImageProps {
   imageInfo: ImageInfo | string;
